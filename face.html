@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfolio Heloisa pereira</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="estilo.css">
+
+
+
+</head>
+
+<body class="min-h-screen flex flex-col">
+
+  <!-- Portfolio Header Section -->
+  <header class="relative bg-[#26362f] text-[#ece3d3] flex flex-col lg:flex-row items-center justify-between
+   px-6 md:px-12 py-10 overflow-hidden">
+
+    <!-- Left side text & image -->
+    <div class="flex flex-col md:flex-row items-center gap-8 md:gap-16 max-w-6xl w-full relative z-10">
+
+      <div class="relative">
+        <img src="FOTOS/eu.png" alt="Portrait of a young man with black hair wearing a dark green jacket, posing sideways with hand near mouth, artistic and warm lighting" 
+          onerror="this.style.display='none'" class="rounded-lg shadow-lg max-w-[300px] w-full object-cover" />
+        <!-- Small stars around image -->
+        <span class="star" style="top: 5px; left: 10px;"></span>
+        <span class="star" style="top: 60px; right: 12px;"></span>
+        <span class="star" style="bottom: 15px; left: 30px;"></span>
+      </div>
+
+      <div>
+        <h1 class="text-5xl md:text-7xl font-playfair font-black mb-4 select-none max-w-md leading-tight">PORTFOLIO</h1>
+      </div>
+    </div>
+
+
+  </header>
+
+  <!-- Main Content Section -->
+  <main class="flex-grow max-w-6xl mx-auto px-6 md:px-12 py-12 md:py-16 bg-[#ebe6da] text-[#2c2c2c] rounded-b-3xl shadow-xl -mt-4 md:-mt-8">
+
+    <!-- Intro and Education / Experience Section -->
+    <section id="about" class="grid grid-cols-1 md:grid-cols-12 gap-12">
+
+      <!-- breve explicação sobre mim -->
+      <div class="md:col-span-6 flex flex-col justify-center gap-4">
+        <h2 class="text-5xl font-playfair font-bold mb-4 leading-snug select-none"> Sobre mim </h2>
+        <p class="text-lg leading-relaxed">
+         blablablablablablablalablablablablabla
+        </p>
+      </div>
+
+      <!-- FORMAÇÕES-->
+      <aside class="md:col-span-3 text-[#26362f]">
+        <h3 class="text-3xl font-playfair font-bold mb-4 select-none border-b-2 border-[#f2a263] pb-2">Education</h3>
+        <ul class="space-y-4 text-sm">
+          <li>
+            <strong>2020-2022:</strong> University of Art & Design<br />
+            <span class="italic text-gray-700">Bachelor in Graphic Design</span>
+          </li>
+          <li>
+            <strong>2018-2020:</strong> City Tech Institute<br />
+            <span class="italic text-gray-700">Diploma in Web Development</span>
+          </li>
+          <li>
+            <strong>2015-2018:</strong> Greenfield High School<br />
+            <span class="italic text-gray-700">High School Diploma</span>
+          </li>
+        </ul>
+      </aside>
+
+      <!-- esperiecias-->
+      <aside class="md:col-span-3 bg-[#f2a263] text-[#1e2a23] rounded-lg shadow-lg p-6">
+        <h3 class="text-3xl font-playfair font-bold mb-4 select-none">Experiências</h3>
+        <ul class="space-y-6">
+          <li>
+            <div>
+                <p> jovem aprendiz: Americanas S.A</p>
+            </div>
+          </li>
+        </ul>
+      </aside>
+    </section>
+
+    <!-- Contact & Skills Section -->
+    <section id="contact" class="grid grid-cols-1 md:grid-cols-12 gap-12 mt-16">
+
+      <!-- Contact Info -->
+      <aside class="md:col-span-5 contact-box relative flex flex-col gap-4">       <!-- PARTE DOS CONTATOS-->
+
+        <h3 class="text-3xl font-playfair font-bold select-none mb-4">Meios de contato</h3>
+        
+        <ul class="space-y-1 text-sm">       <!-- meios de coontato e afins-->
+
+          <li><strong>Email:</strong> <a href="mailto:hau.nguyen@email.com" class="underline text-[#f2a263] hover:text-[#d88a36]">hau.nguyen@email.com</a></li>
+          <li><strong>Celular:</strong> <a href="tel:+5511999999999" class="underline text-[#f2a263] hover:text-[#d88a36]">+55 84 991402987</a></li>
+          <li><strong>Enderço:</strong> Natal- RN</li>
+        
+        </ul>
+        </div>
+      </aside>
+
+      <!-- Technical Skills -->
+      <aside class="md:col-span-7">
+        <h3 class="text-3xl font-playfair font-bold mb-4 select-none border-b-2 border-[#26362f] pb-2">Habilidades tecnicas</h3>
+        <div class="flex flex-wrap gap-2 text-sm">
+          <span class="tag select-none" title="Proficient in JavaScript">JavaScript</span>
+          <span class="tag select-none" title="Styled Components & Tailwind CSS">CSS & Tailwind</span>
+          <span class="tag select-none" title="Basic Node.js">Node.js</span>
+        </div>
+
+        <!-- Languages -->
+        <div class="mt-10">
+          <h3 class="text-3xl font-playfair font-bold mb-4 select-none border-b-2 border-[#26362f] pb-2">Language</h3>
+          <ul class="text-sm space-y-2 max-w-xs">
+            <li>Ingles <span aria-hidden="true">-</span> Intermediario</li>
+            <li>Italiano <span aria-hidden="true">-</span> Basico</li>
+            <li>Prtugues <span aria-hidden="true">-</span> Nativo <span class="arrow-rotate" aria-label="Language proficiency arrow">➔</span></li>
+          </ul>
+        </div>
+
+        <!-- Hobbies & Interests -->
+        <div class="mt-10">
+          <h3 class="text-3xl font-playfair font-bold mb-4 select-none border-b-2 border-[#26362f] pb-2">Hobbies</h3>
+          <ul class="flex gap-6 flex-wrap text-xl" aria-label="List of hobbies and interests">
+             
+            <p>
+              Desenho
+            </p>
+         
+        </ul>
+        </div>
+      </aside>
+    </section>
+
+  </main>
+
+  <footer class="text-center py-6 bg-[#26362f] text-[#f2a263] select-none font-semibold text-sm">
+    © 2025 heloisa pereira 
+  </footer>
+
+</body>
+
+</html>
+

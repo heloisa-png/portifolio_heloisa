@@ -1,0 +1,190 @@
+
+    /* Custom fonts and style for vintage modern vibe */
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400;700&display=swap');
+
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #323f2f; /* dark green */
+      color: #513f20;
+      min-height: 100vh;
+      margin: 0;
+    }
+
+    h1, h2, h3 {
+      font-family: 'Playfair Display', serif;
+      font-weight: 700;
+    }
+
+    /* Custom transition for buttons */
+    button,
+    a.button {
+      transition: all 0.3s ease;
+    }
+
+    /* Scrollbar dark themed */
+    ::-webkit-scrollbar {
+      width: 10px;
+    }
+
+    ::-webkit-scrollbar-track {
+      background: #90aa6d;
+    }
+
+
+    /* Section backgrounds */
+    .section-bg-dark {
+      background-color: #16492b;
+    }
+
+    .section-bg-light {
+      background-color: #463d28;
+      color: #2c2c2c;
+    }
+
+    /* Overlay grid of "INFO" in portfolio hero */
+    .portfolio-info-text {
+      font-family: 'Roboto', sans-serif;
+      font-weight: 900;
+      font-size: 0.8rem;
+      line-height: 1;
+      letter-spacing: 0.1em;
+      color: #42980055;
+      user-select: none;
+      white-space: nowrap;
+      position: absolute;
+      top: 40%;
+      right: 10%;
+      display: flex;
+      flex-wrap: wrap;
+      width: 200px;
+      transform-origin: right bottom;
+      transform: rotate(-5deg);
+      pointer-events: none;
+      gap: 8px;
+    }
+
+    /* Tiny star shapes */
+    .star {
+      width: 4px;
+      height: 4px;
+      background: #281a0f;
+      clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+      display: inline-block;
+      position: absolute;
+      filter: drop-shadow(0 0 1px #ff0000);
+    }
+
+    /* botão de conectar e talk to me  */
+    .btn-primary {
+      background-color: #bf7d32;
+      color: #1e2a23;
+      font-weight: 700;
+      padding: 0.75rem 1.5rem;
+      border-radius: 9999px;
+      display: inline-block;
+      border: none;
+      cursor: pointer;
+      text-decoration: none;
+    }
+
+    .btn-primary:hover,
+    .btn-primary:focus {
+      background-color: #d88a36;
+      outline: none;
+    }
+
+    /* Rounded tags for skills and badges */
+    .tag {
+      background-color: #242e17;
+      color: #c5d7c1;
+      font-weight: 600;
+      border-radius: 9999px;
+      padding: 0.25rem 0.75rem;
+      margin-right: 0.5rem;
+      margin-bottom: 0.5rem;
+      display: inline-block;
+      font-size: 0.875rem;
+      user-select: none;
+      cursor: default;
+    }
+
+    .tag-dark {
+      background-color: #11542d;
+      color: #b8eaba;
+    }
+
+    /* Footer style for language arrow */
+    .arrow-rotate {
+      display: inline-block;
+      transition: transform 0.3s ease;
+      cursor: pointer;
+    }
+
+    .arrow-rotate:hover {
+      transform: rotate(90deg);
+    }
+
+    /* Contact box */
+    .contact-box {
+      background-color: lch(27.78% 17.85 113.04);
+      padding: 1.5rem;
+      border-radius: 12px;
+      color: #ece3d3;
+      box-shadow: 0 10px 20px rgb(197 157 42 / 0.3);
+      user-select: none;
+    }
+
+    /* Accessibility icon bounce */
+    .accessibility-icon {
+      font-weight: 700;
+      font-size: 0.9rem;
+      color: #030100;
+      cursor: pointer;
+      user-select: none;
+      padding: 0.25rem 0.75rem;
+      border: 1.5px solid #f2a263;
+      border-radius: 9999px;
+      margin-top: 2rem;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.3rem;
+      transition: transform 0.3s ease;
+      text-decoration: none;
+    }
+
+    .accessibility-icon:hover {
+      transform: scale(1.1);
+      color: #d88a36;
+      border-color: #d88a36;
+    }
+
+    /* Title underline highlight */
+    .highlight-underline {
+      position: relative;
+      display: inline-block;
+      color: #f2a263;
+      font-weight: 700;
+    }
+
+    .highlight-underline::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: -2px;
+      height: 6px;
+      width: 100%;
+      background-color: #4c3726;
+      border-radius: 6px;
+      z-index: -1;
+      transform-origin: left;
+      transform: scaleX(0.7);
+    }
+
+    /* Experience bullet */
+    .experience-year {
+      font-family: 'Playfair Display', serif;
+      font-weight: 700;
+      color: #3d2a10;
+      font-size: 1.25rem;
+    }
+
